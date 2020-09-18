@@ -13,4 +13,4 @@
 涉及到的并发编程的知识点：
 1、服务下线的时候，需要将isRunning用volatile修饰，可以在多线程之间的可见性，立即让如定时拉取实例，发送心跳等组件停止运行
 2、join的使用
-3、interrupt的使用，结合sleep方法
+3、interrupt的使用，结合sleep方法 
